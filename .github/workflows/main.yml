@@ -11,6 +11,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: 172.231.211.221
+        ftp-server: 172.231.211.221:/home/cmdemo5/public_html
         ftp-username: cmdemo5
         ftp-password: ${{ secrets.FTP_PASSWORD }}
